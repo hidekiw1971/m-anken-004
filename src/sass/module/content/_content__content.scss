@@ -1,0 +1,30 @@
+@use "global" as *;
+.content__content {
+  // size
+  display: block;
+  max-width: rem(188);
+  width: 100%;
+  // decoration
+  background-color: #f00;
+  // ajustment
+  position: relative;
+  @include mq(md) {
+    // size
+    max-width: rem(375);
+    width: 100%;
+  }
+  @include mq(xl) {
+  }
+}
+
+.content__content::before {
+  content: "";
+  // size
+  display: block;
+  width: 100%;
+  padding-top: 89.3617%;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

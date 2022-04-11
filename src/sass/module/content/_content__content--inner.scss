@@ -1,0 +1,7 @@
+@use "global" as *;
+.content__content--inner {
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
