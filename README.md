@@ -4,7 +4,8 @@
 
 ## 概要
 
-- ｘｘｘ
+- codepus 模擬案件（content）
+- 擬似要素（文字配置、ハイライト）、`flex-wrap`
 - https://www.notion.so/000_web-component-index-c4b399010bf342e9b4e2ed516cf9c730
 
 ## 仕様
@@ -21,7 +22,7 @@
 ## 使い方
 
 - 「copy start」から「copy end」をコピペ。
-- css: src -> module -> xxx をコピペ。
+- css: src -> module -> content をコピペ。
 
 ## w3c html チェック結果
 
@@ -34,14 +35,17 @@
 ## portfolio url:
 
 - https://c-0000.wtb.cfbx.jp/
-- https://css-md-0000.wtb.cfbx.jp/
 
 ## 参考にしたサイト
 
-- xxx
+- CSS | display:flex で横並びの個数を固定して折り返す方法
+- https://tinyurl.com/yahnj8je
+- justify-content(space-between など)が効かない原因と解決方法 4 選
+- https://tinyurl.com/ya3s7s2x
 
 ## 更新履歴
 
+- 2022/4/12 完成(擬似要素（文字配置、ハイライト）、`flex-wrap`)
 - 2022/4/12 content 作成中（sp サイズで画像４枚を並べるところで中断）
 
 ## 環境・使い方

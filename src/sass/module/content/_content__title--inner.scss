@@ -8,12 +8,20 @@
   line-height: 1.45;
   // decoration
   color: #fff;
+  // space
+  padding-top: rem(49);
+  padding-bottom: rem(48);
+  // ajustment -> `content__title--inner::before`
+  position: relative;
 
   @include mq(md) {
     // font
     font-size: rem(30);
     letter-spacing: rem(2);
     line-height: 1.1666;
+    // space
+    padding-top: rem(44);
+    padding-bottom: rem(48);
   }
   @include mq(xl) {
   }
@@ -33,6 +41,11 @@
   // decoration
   color: #f9f871;
   opacity: 0.2;
+  // ajustment -> `content__title--inner`
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -90%);
 
   @include mq(md) {
     // font
@@ -40,6 +53,11 @@
     font-weight: $normal;
     letter-spacing: rem(2);
     line-height: 1.4363;
+    // ajustment -> `content__title--inner`
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translate(-27%, 0%);
   }
   @include mq(xl) {
   }
