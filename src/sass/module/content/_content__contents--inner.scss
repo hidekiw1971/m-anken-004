@@ -3,6 +3,7 @@
   // size
   display: flex;
   flex-wrap: wrap;
+  flex-basis: rem(768);
   @include mq(md) {
   }
   @include mq(xl) {
