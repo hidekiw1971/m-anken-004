@@ -2,7 +2,7 @@
 .content {
   // size
   display: inline-block;
-  max-width: rem(375);
+  min-width: rem(375);
   width: 100%;
   @include mq(md) {
     // size

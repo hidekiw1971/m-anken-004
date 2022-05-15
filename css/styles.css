@@ -252,17 +252,14 @@ select::-ms-expand {
 }
 .content__content {
   display: block;
-  max-width: 187.5px;
-  max-width: 11.71875rem;
-  width: 100%;
+  width: 50%;
   background-color: #f00;
   overflow: hidden;
   position: relative;
 }
 @media screen and (min-width: 768px) {
   .content__content {
-    max-width: 20rem;
-    width: 100%;
+    width: 25%;
   }
 }
 .content__content::before {
@@ -290,6 +287,10 @@ select::-ms-expand {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -ms-flex-preferred-size: 768px;
+      flex-basis: 768px;
+  -ms-flex-preferred-size: 48rem;
+      flex-basis: 48rem;
 }
 .content__inner {
   background-color: #111;
@@ -352,8 +353,8 @@ select::-ms-expand {
 }
 .content {
   display: inline-block;
-  max-width: 375px;
-  max-width: 23.4375rem;
+  min-width: 375px;
+  min-width: 23.4375rem;
   width: 100%;
 }
 @media screen and (min-width: 768px) {
